@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 a{
@@ -21,11 +22,6 @@ body {
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: white;
-}
-
-h1 .seo {
-    color: #d9dcd6;
 }
 
 .header nav {
@@ -38,4 +34,8 @@ h1 .seo {
 .header nav ul li {
     display: inline-block;
     margin-left: 60px;
+}
+
+.contact{
+    
 }
