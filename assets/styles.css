@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: rgb(37, 50, 73);
+}
+
+.header {
+    padding: 20px;
+    background-color: gray;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+}
+
+h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 24px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
