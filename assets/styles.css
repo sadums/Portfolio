@@ -6,7 +6,7 @@
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 body {
@@ -41,6 +41,13 @@ h2{
     margin: 30px;
 }
 
+.avatar{
+    margin-left: 100px; 
+    width: 150px; height: 
+    150px; 
+    border-radius: 50%;
+}
+
 .projects{
     display: flex;
     flex-direction:row;
@@ -49,7 +56,7 @@ h2{
     max-width: 700px;
 }
 
-.projects div{
+.projects a{
     width: 300px;
     background-color: white;
     box-shadow: 0 2px 8px 0;
@@ -60,16 +67,16 @@ h2{
 #first-project{
     width: 500px;
 }
-.projects div img{
+.projects a img{
     width: 100%;
     max-height: 200px;
 }
-.projects div caption{
+.projects a caption{
     text-align: center;
     padding: 10px 20px;
 }
 
-.projects div:hover{
+.projects a:hover{
     transform: scale(1.04);
 }
 
