@@ -2,12 +2,10 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    color: white;
 }
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 body {
@@ -36,6 +34,31 @@ h1 {
     margin-left: 60px;
 }
 
-.contact{
-    
+
+
+.projects{
+}
+
+.projects div{
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 8px 0;
+    margin-bottom: 25px;
+    transition: all 0.2s ease-in-out;
+}
+.projects div img{
+    width: 100%;
+}
+.caption{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.projects div:hover{
+    transform: scale(1.04);
+}
+
+.contact ul li{
+    display: inline-block;
+    margin: 20px;
 }
