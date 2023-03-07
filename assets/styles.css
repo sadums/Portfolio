@@ -6,10 +6,12 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 body {
     background-color: rgb(37, 50, 73);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -35,21 +37,34 @@ h1 {
 }
 
 
+h2{
+    margin: 30px;
+}
 
 .projects{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 700px;
 }
 
 .projects div{
-    width: 500px;
+    width: 300px;
     background-color: white;
     box-shadow: 0 2px 8px 0;
+    margin-right: 15px;
     margin-bottom: 25px;
     transition: all 0.2s ease-in-out;
 }
+#first-project{
+    width: 500px;
+}
 .projects div img{
     width: 100%;
+    max-height: 200px;
 }
-.caption{
+.projects div caption{
     text-align: center;
     padding: 10px 20px;
 }
