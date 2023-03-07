@@ -1,9 +1,11 @@
+/* Universal CSS */
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+/* removes decoration from links */
 a{
     text-decoration: none;
     color: black;
@@ -14,6 +16,8 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
+/* CSS for nav bar */
 .header {
     padding: 20px;
     background-color: gray;
@@ -41,6 +45,8 @@ h2{
     margin: 30px;
 }
 
+
+/* About Me SectionCSS */
 .avatar{
     margin-left: 100px; 
     width: 150px; height: 
@@ -48,6 +54,9 @@ h2{
     border-radius: 50%;
 }
 
+/* Work Section CSS */
+
+/* Projects are put in a flexbox */
 .projects{
     display: flex;
     flex-direction:row;
@@ -56,6 +65,7 @@ h2{
     max-width: 700px;
 }
 
+/* CSS for project "cards" */
 .projects a{
     width: 300px;
     background-color: white;
@@ -76,10 +86,12 @@ h2{
     padding: 10px 20px;
 }
 
+/* grows cards when hovering over */
 .projects a:hover{
     transform: scale(1.04);
 }
 
+/* Contact Section CSS */
 .contact ul li{
     display: inline-block;
     margin: 20px;
